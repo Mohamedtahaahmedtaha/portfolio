@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+
+.app {
+  text-align: center;
+  padding: 40px;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  color: #58a6ff;
+  font-size: 2.5rem;
+}
+
+.header p {
+  color: #8b949e;
+}
+
+.projects {
+  max-width: 700px;
+  margin: auto;
+}
+
+.project {
+  background: #161b22;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #0d1117;
+  transition: 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px #30363d;
+}
+
+.project h3 {
+  color: #58a6ff;
+}
+
+.project a {
+  color: #79c0ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 40px;
+  color: #8b949e;
+}
