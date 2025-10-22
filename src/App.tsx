@@ -170,11 +170,14 @@ export default function App() {
           <span>LangChain</span>
           <span>OpenCV</span>
           <span>HuggingFace</span>
+          <span>GANS</span>
           <span>NLTK</span>
           <span>Spacy</span>
           <span>MLFlow</span>
           <span>Spark</span>
           <span>FastAPI</span>
+          <span>Docker</span>
+          <span>Kubernetes</span>
           <span>Streamlit</span>
           <span>Pandas</span>
           <span>NumPy</span>
@@ -185,7 +188,6 @@ export default function App() {
           <span>PowerBI</span>
           <span>Tableau</span>
           <span>Altreyx</span>
-          <span>Kubernetes</span>
         </div>
       </section>
 
