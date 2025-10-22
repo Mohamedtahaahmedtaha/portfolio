@@ -159,17 +159,33 @@ export default function App() {
         <h3 className="text-3xl font-bold mb-10 text-teal-400">Skills</h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-gray-300">
           <span>Python</span>
+          <span>C++</span>
+          <span>C#</span>
+          <span>Dart</span>
+          <span>OOP</span>
           <span>SQL</span>
+          <span>Scikit-learn</span>
           <span>TensorFlow</span>
           <span>PyTorch</span>
-          <span>Scikit-learn</span>
           <span>LangChain</span>
           <span>OpenCV</span>
+          <span>HuggingFace</span>
+          <span>NLTK</span>
+          <span>Spacy</span>
+          <span>MLFlow</span>
+          <span>Spark</span>
           <span>FastAPI</span>
           <span>Streamlit</span>
           <span>Pandas</span>
           <span>NumPy</span>
           <span>Matplotlib</span>
+          <span>Plotly-express</span>
+          <span>PandasProfiling</span>
+          <span>WordCloud</span>
+          <span>PowerBI</span>
+          <span>Tableau</span>
+          <span>Altreyx</span>
+          <span>Kubernetes</span>
         </div>
       </section>
 
