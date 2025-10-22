@@ -103,7 +103,8 @@ export default function App() {
             <p>
               Worked on several data-driven projects involving medical AI,
               sentiment analysis, and automation, focusing on building
-              real-world deployable ML systems.
+              real-world deployable ML systems, one time gold , one time
+              siliver, four times bronze medals in Kaggle.
             </p>
           </div>
         </div>
@@ -169,11 +170,14 @@ export default function App() {
           <span>PyTorch</span>
           <span>LangChain</span>
           <span>OpenCV</span>
+          <span>YOLO</span>
           <span>HuggingFace</span>
           <span>GANS</span>
           <span>NLTK</span>
           <span>Spacy</span>
           <span>MLFlow</span>
+          <span>MLOPS</span>
+          <span>AzureML</span>
           <span>Spark</span>
           <span>FastAPI</span>
           <span>Docker</span>
