@@ -130,9 +130,15 @@ export default function App() {
           />
           {/* Telegram Voice to Text */}
           <ProjectCard
-            title="Telegram Voice-to-Text Bot"
-            description="AI-powered Telegram bot that converts voice messages into text, analyzes audio quality, and integrates with Trello."
+            title="Telegram Voice to Text Bot"
+            description="AI powered Telegram bot that converts voice messages into text, analyzes audio quality, and integrates with Trello."
             link="https://github.com/Mohamedtahaahmedtaha/Telegram-voice-to-text-"
+          />
+          {/* Recommendation System  */}
+          <ProjectCard
+            title="Book Recommendation System"
+            description="Book Recommendation System using Collaborative Filtering analyzes user book interactions to provide personalized book suggestions based on reading patterns, ratings, and user similarity"
+            link="https://github.com/Mohamedtahaahmedtaha/Book-Recommendation-system"
           />
           {/* Sentiment Analysis */}
           <ProjectCard
@@ -146,11 +152,29 @@ export default function App() {
             description="Deep learning project that classifies X-ray images to detect bone fractures using CNN architectures."
             link="https://github.com/Mohamedtahaahmedtaha/Bone-Fracture-Detection"
           />
+          {/*Eye for the blind */}
+          <ProjectCard
+            title="Eye For The Blind"
+            description="model that can explain the content of an image in the form of speech through caption generation with the attention mechanism"
+            link="https://github.com/Mohamedtahaahmedtaha/Eye-for-the-blind"
+          />
+          {/* Signature  */}
+          <ProjectCard
+            title="Signature"
+            description="Project focuses on signature recognition using machine learning techniques"
+            link="https://github.com/Mohamedtahaahmedtaha/signature"
+          />
           {/* Football OCR */}
           <ProjectCard
-            title="Football Match OCR & YOLO"
+            title="Football Match OCR "
             description="Computer Vision system for player, referee, and ball detection in football matches using YOLOv8 and OpenCV."
             link="https://github.com/Mohamedtahaahmedtaha/match-OCR"
+          />
+          {/* Brain tumor */}
+          <ProjectCard
+            title="Brain Tumor"
+            description="Computer Vision system uses to classify 4 types of brain tumor."
+            link="https://github.com/Mohamedtahaahmedtaha/Brain-tumor"
           />
         </div>
       </section>
