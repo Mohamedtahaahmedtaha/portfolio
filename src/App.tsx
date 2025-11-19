@@ -68,7 +68,7 @@ export default function App() {
         <h3 className="text-3xl font-bold mb-6 text-teal-400">About Me</h3>
         <p className="text-gray-300 text-lg leading-relaxed">
           I’m <b>Mohamed Taha</b>, an <b>AI Engineer</b> and{" "}
-          <b>Data Scientist</b>
+          <b>Data Scientist </b>
           with a strong background in <b>automation</b> and{" "}
           <b>machine learning</b>. I served two years in the{" "}
           <b>Egyptian Navy</b> as an Instructor and Developer, where I built and
@@ -120,7 +120,7 @@ export default function App() {
           <ProjectCard
             title="EyeCG (Dell Winner)"
             description="Computer Vision project for eye gaze tracking and cognitive state detection using deep learning."
-            link="https://github.com/Mohamedtahaahmedtaha/Graduation-Project"
+            link="https://github.com/Mohamedtahaahmedtaha/EyeCG"
           />
           {/* Warm Leads Bot */}
           <ProjectCard
@@ -176,6 +176,66 @@ export default function App() {
             description="Computer Vision system uses to classify 4 types of brain tumor."
             link="https://github.com/Mohamedtahaahmedtaha/Brain-tumor"
           />
+          {/* Remote sensing */}
+          <ProjectCard
+            title="Remote sensing segmentation"
+            description="Remote Sensing Land Cover Segmentation using DeepLabv3 + ResNet50 A semantic segmentation model trained on remote sensing satellite imagery with Partial Cross-Entropy Loss to handle partially labeled data."
+            link="https://github.com/Mohamedtahaahmedtaha/Remote-sensing-segmentation"
+          />
+          {/* Remote sensing */}
+          <ProjectCard
+            title="Eye diseases"
+            description="Machine Learning model to classify 4 types of eye diseases"
+            link="https://github.com/Mohamedtahaahmedtaha/Eye-diseases"
+          />
+        </div>
+      </section>
+      {/* ===== CERTIFICATES ===== */}
+      <section id="certificates" className="py-20 px-8 max-w-6xl mx-auto">
+        <h3 className="text-3xl font-bold mb-10 text-teal-400 text-center">
+          Certificates
+        </h3>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          <CertificateCard title="DELL" file="Dell.jpg" />
+          <CertificateCard title="NLP" file="NLP.pdf" />
+          <CertificateCard title="Deep Learning" file="Deep learning.pdf" />
+          <CertificateCard
+            title="Machine Learning"
+            file="Machine learning from stanford.pdf.pdf"
+          />
+          <CertificateCard
+            title="TensorFlow"
+            file="DeepLearning.AI TensorFlow Devloper.pdf"
+          />
+          <CertificateCard
+            title="TensorFlow Deployment"
+            file="TensorFlow deployment.pdf"
+          />
+          <CertificateCard
+            title="Probabilistic Graphical models"
+            file="Probabilistic Graphical models.pdf"
+          />
+          <CertificateCard
+            title="PySpark"
+            file="Machine Learning with PySpark.pdf"
+          />
+          <CertificateCard title="Computer Vision" file="cv.pdf" />
+          <CertificateCard
+            title="Power BI"
+            file="Data Analyst in Power BI.pdf"
+          />
+          <CertificateCard title="Alteryx" file="alteryx.pdf" />
+          <CertificateCard title="SQL" file="SQL.pdf" />
+          <CertificateCard title="MLOPS" file="MLOPS Fundamentals.pdf" />
+          <CertificateCard
+            title="Statisics"
+            file="Statistics with Python.pdf"
+          />
+          <CertificateCard
+            title="Time Series 15"
+            file="Machine Learning for Time Series Data in"
+          />
         </div>
       </section>
 
@@ -215,7 +275,7 @@ export default function App() {
           <span>WordCloud</span>
           <span>PowerBI</span>
           <span>Tableau</span>
-          <span>Altreyx</span>
+          <span>Alteryx</span>
         </div>
       </section>
 
@@ -283,6 +343,27 @@ function ProjectCard({
         className="text-teal-400 hover:underline"
       >
         View on GitHub →
+      </a>
+    </motion.div>
+  );
+}
+
+/* ===== Certificate Card Component ===== */
+function CertificateCard({ title, file }: { title: string; file: string }) {
+  return (
+    <motion.div
+      className="bg-[#1a1a1a] rounded-2xl p-6 shadow-md hover:-translate-y-1 transition"
+      whileHover={{ scale: 1.02 }}
+    >
+      <h4 className="text-xl font-semibold mb-4 text-white">{title}</h4>
+
+      <a
+        href={`/certificates/${file}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-teal-400 hover:underline text-sm"
+      >
+        View Certificate →
       </a>
     </motion.div>
   );
