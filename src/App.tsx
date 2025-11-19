@@ -236,8 +236,8 @@ export default function App() {
             file="Statistics with Python.pdf"
           />
           <CertificateCard
-            title="Time Series 15"
-            file="Machine Learning for Time Series Data in"
+            title="Time Series"
+            file="Machine Learning for Time Series Data in.pdf"
           />
         </div>
       </section>
