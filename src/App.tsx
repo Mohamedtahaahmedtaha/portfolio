@@ -199,7 +199,10 @@ export default function App() {
         <div className="grid md:grid-cols-3 gap-8">
           <CertificateCard title="DELL" file="Dell.jpg" />
           <CertificateCard title="NLP" file="NLP.pdf" />
-          <CertificateCard title="Deep Learning" file="Deep learning.pdf" />
+          <CertificateCard
+            title="Deep Learning"
+            file="Deep learning from deeplearning.ai.pdf"
+          />
           <CertificateCard
             title="Machine Learning"
             file="Machine learning from stanford.pdf.pdf"
