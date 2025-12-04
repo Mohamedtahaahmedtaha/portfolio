@@ -197,8 +197,10 @@ export default function App() {
         </h3>
 
         <div className="grid md:grid-cols-3 gap-8">
-          <CertificateCard title="DELL" file="Dell.jpg" />
+          <CertificateCard title="DELL" file="DELL.jpg" />
+          <CertificateCard title="Experience" file="ENF.jpg" />
           <CertificateCard title="NLP" file="NLP.pdf" />
+          <CertificateCard title="Computer Vision" file="Coursera.pdf" />
           <CertificateCard
             title="Deep Learning"
             file="Deep learning from deeplearning.ai.pdf"
@@ -207,6 +209,9 @@ export default function App() {
             title="Machine Learning"
             file="Machine learning from stanford.pdf.pdf"
           />
+          <CertificateCard title="LangChain" file="LangChain.pdf" />
+          <CertificateCard title="RAG" file="RAG.pdf" />
+          <CertificateCard title="HuggingFace" file="hf.pdf" />
           <CertificateCard
             title="TensorFlow"
             file="DeepLearning.AI TensorFlow Devloper.pdf"
@@ -215,6 +220,9 @@ export default function App() {
             title="TensorFlow Deployment"
             file="TensorFlow deployment.pdf"
           />
+          <CertificateCard title="PyTorch" file="PyTorch (2).pdf" />
+          <CertificateCard title="Keras" file="keras.pdf" />
+
           <CertificateCard
             title="Probabilistic Graphical models"
             file="Probabilistic Graphical models.pdf"
@@ -223,14 +231,18 @@ export default function App() {
             title="PySpark"
             file="Machine Learning with PySpark.pdf"
           />
-          <CertificateCard title="Computer Vision" file="cv.pdf" />
+          <CertificateCard title="MLOPS" file="MLOPS Fundamentals.pdf" />
           <CertificateCard
             title="Power BI"
             file="Data Analyst in Power BI.pdf"
           />
+          <CertificateCard title="Data Analysis from Itida" file="itida.pdf" />
+          <CertificateCard
+            title="Business Analysis from 365DataScience"
+            file="Business Analyst.pdf"
+          />
           <CertificateCard title="Alteryx" file="alteryx.pdf" />
           <CertificateCard title="SQL" file="SQL.pdf" />
-          <CertificateCard title="MLOPS" file="MLOPS Fundamentals.pdf" />
           <CertificateCard
             title="Statisics"
             file="Statistics with Python.pdf"
@@ -239,6 +251,7 @@ export default function App() {
             title="Time Series"
             file="Machine Learning for Time Series Data in.pdf"
           />
+          <CertificateCard title="Flutter" file="flutter.pdf" />
         </div>
       </section>
 
