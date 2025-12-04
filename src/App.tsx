@@ -87,7 +87,7 @@ export default function App() {
         <div className="max-w-4xl mx-auto text-gray-300 space-y-6">
           <div className="bg-[#1a1a1a] p-6 rounded-2xl shadow-lg">
             <h4 className="text-xl font-semibold text-white mb-2">
-              🏆 1st Place — Dell Technologies AI Competition
+              🏆 1st Place - Dell Technologies AI Competition
             </h4>
             <p>
               Won the Dell Technologies graduation competition with the project
@@ -140,6 +140,19 @@ export default function App() {
             description="Book Recommendation System using Collaborative Filtering analyzes user book interactions to provide personalized book suggestions based on reading patterns, ratings, and user similarity"
             link="https://github.com/Mohamedtahaahmedtaha/Book-Recommendation-system"
           />
+          {/* RAG   */}
+          <ProjectCard
+            title="RAG PDF"
+            description="Comprehensive Multilingual PDF Data Extraction Pipeline with Advanced OCR Support"
+            link="https://github.com/Mohamedtahaahmedtaha/RAG-PDF"
+          />
+          {/* RAG   */}
+          <ProjectCard
+            title="Retail Copilot Hybrid"
+            description="Hybrid AI Agent for Retail Analytics. Implements a DSPy + LangGraph solution to answer Northwind DB queries. Combines NL-to-SQL generation with RAG over local policy documents. Configured for local Ollama models"
+            link="https://github.com/Mohamedtahaahmedtaha/Retail-Copilot-Hybrid"
+          />
+
           {/* Sentiment Analysis */}
           <ProjectCard
             title="Sentiment Analysis for Mental Health"
